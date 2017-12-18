@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <comment>
+    MidyAX
+ </comment>
+ <class>MidiSetupClass</class>
+ <widget class="QDialog" name="MidiSetupClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>528</width>
+    <height>830</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>300</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MIDI Setup</string>
+  </property>
+  <layout class="QGridLayout">
+   <item row="5" column="3">
+    <widget class="QComboBox" name="comboOutput_1">
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="4">
+    <widget class="QSpinBox" name="sBparamChannel_03">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLabel" name="labelOutputAXEFX">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>OUT</string>
+     </property>
+     <property name="buddy">
+      <cstring>comboOutput_0</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="17" column="6">
+    <widget class="QSpinBox" name="sBAXEFXChannel_07">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="21" column="5">
+    <widget class="QSpinBox" name="sBpageChannel_09">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="21" column="6">
+    <widget class="QSpinBox" name="sBAXEFXChannel_09">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="22" column="1">
+    <widget class="QLabel" name="label_15">
+     <property name="text">
+      <string>OUT</string>
+     </property>
+    </widget>
+   </item>
+   <item row="22" column="3">
+    <widget class="QComboBox" name="comboOutput_9">
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLabel" name="labelInputAXEFX">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>IN</string>
+     </property>
+     <property name="buddy">
+      <cstring>comboInput_0</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="4">
+    <widget class="QSpinBox" name="sBparamChannel_02">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <widget class="QLabel" name="labelInputOTHER2">
+     <property name="text">
+      <string>IN</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="3">
+    <widget class="QComboBox" name="comboInput_1">
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="21" column="4">
+    <widget class="QSpinBox" name="sBparamChannel_09">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="19" column="4">
+    <widget class="QSpinBox" name="sBparamChannel_08">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLabel" name="labelInputBCR2000">
+     <property name="text">
+      <string>IN</string>
+     </property>
+    </widget>
+   </item>
+   <item row="19" column="0">
+    <widget class="QLabel" name="label_12">
+     <property name="text">
+      <string>OTHER 1</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="1">
+    <widget class="QLabel" name="label_32">
+     <property name="text">
+      <string>IN</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="6">
+    <widget class="QSpinBox" name="sBAXEFXChannel_03">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="17" column="1">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>IN</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="6">
+    <widget class="QSpinBox" name="sBAXEFXChannel_04">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QComboBox" name="comboInput_0">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="whatsThis">
+      <string>Use this control to change the connection for the MIDI input port, if it is enabled</string>
+     </property>
+    </widget>
+   </item>
+   <item row="19" column="6">
+    <widget class="QSpinBox" name="sBAXEFXChannel_08">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="6">
+    <widget class="QSpinBox" name="sBAXEFXChannel_01">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="17" column="3">
+    <widget class="QComboBox" name="comboInput_7">
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="0">
+    <widget class="QLabel" name="label_18">
+     <property name="text">
+      <string>QUNEO</string>
+     </property>
+    </widget>
+   </item>
+   <item row="21" column="1">
+    <widget class="QLabel" name="label_14">
+     <property name="text">
+      <string>IN</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="3">
+    <widget class="QComboBox" name="comboOutput_0">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="whatsThis">
+      <string>Use this control to change the connection for the MIDI output port</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="5" rowspan="2">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Page </string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="21" column="0">
+    <widget class="QLabel" name="label_16">
+     <property name="text">
+      <string>OTHER 2</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="4">
+    <widget class="QSpinBox" name="sBparamChannel_01">
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>BCF2000</string>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="1">
+    <widget class="QLabel" name="label_19">
+     <property name="text">
+      <string>IN</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="4" colspan="3">
+    <widget class="QLabel" name="label_11">
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>MIDI CHANNELS</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="5">
+    <widget class="QSpinBox" name="sBpageChannel_02">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="3">
+    <widget class="QComboBox" name="comboOutput_2">
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="3">
+    <widget class="QComboBox" name="comboInput_3">
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="1">
+    <widget class="QLabel" name="label_13">
+     <property name="text">
+      <string>IN</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>BeatStep</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="3">
+    <widget class="QComboBox" name="comboOutput_4">
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="1">
+    <widget class="QLabel" name="label_17">
+     <property name="text">
+      <string>OUT</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Guitar Wing</string>
+     </property>
+    </widget>
+   </item>
+   <item row="19" column="5">
+    <widget class="QSpinBox" name="sBpageChannel_08">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1">
+    <widget class="QLabel" name="labelOutputOTHER2">
+     <property name="text">
+      <string>OUT</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="3">
+    <widget class="QComboBox" name="comboInput_5"/>
+   </item>
+   <item row="17" column="5">
+    <widget class="QSpinBox" name="sBpageChannel_07">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="3">
+    <widget class="QComboBox" name="comboOutput_8">
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_1">
+     <property name="text">
+      <string>BCR2000</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="4">
+    <widget class="QSpinBox" name="sBparamChannel_05">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="5">
+    <widget class="QSpinBox" name="sBpageChannel_01">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="23" column="3" colspan="4">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="6" rowspan="2">
+    <widget class="QLabel" name="label_6">
+     <property name="maximumSize">
+      <size>
+       <width>50</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>AXEFX CC</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>X-Touch Mini</string>
+     </property>
+    </widget>
+   </item>
+   <item row="19" column="3">
+    <widget class="QComboBox" name="comboInput_8">
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="5">
+    <widget class="QSpinBox" name="sBpageChannel_04">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="3">
+    <widget class="QComboBox" name="comboInput_2">
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="1">
+    <widget class="QLabel" name="label_30">
+     <property name="text">
+      <string>OUT</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="6">
+    <widget class="QSpinBox" name="sBAXEFXChannel_02">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="19" column="1">
+    <widget class="QLabel" name="label_9">
+     <property name="text">
+      <string>IN</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="3">
+    <widget class="QComboBox" name="comboInput_4">
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="17" column="4">
+    <widget class="QSpinBox" name="sBparamChannel_07">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="4" rowspan="2">
+    <widget class="QLabel" name="lbParam">
+     <property name="text">
+      <string>Param</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QLabel" name="labelOutputOTHER1">
+     <property name="text">
+      <string>OUT</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLabel" name="labelOutputBCR2000">
+     <property name="text">
+      <string>OUT</string>
+     </property>
+    </widget>
+   </item>
+   <item row="17" column="0">
+    <widget class="QLabel" name="label_31">
+     <property name="text">
+      <string>FCB1010</string>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="3">
+    <widget class="QComboBox" name="comboOutput_5"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="lbFractProd">
+     <property name="text">
+      <string>AXE-FX</string>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="3">
+    <widget class="QComboBox" name="comboOutput_7">
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLabel" name="labelInputOTHER1">
+     <property name="text">
+      <string>IN</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="5">
+    <widget class="QSpinBox" name="sBpageChannel_03">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="21" column="3">
+    <widget class="QComboBox" name="comboInput_9">
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="4">
+    <widget class="QSpinBox" name="sBparamChannel_04">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="1">
+    <widget class="QLabel" name="label_8">
+     <property name="text">
+      <string>OUT</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="3">
+    <widget class="QComboBox" name="comboOutput_3">
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="1">
+    <widget class="QLabel" name="label_10">
+     <property name="text">
+      <string>OUT</string>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="1">
+    <widget class="QLabel" name="label_20">
+     <property name="text">
+      <string>OUT</string>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="3">
+    <widget class="QComboBox" name="comboInput_6"/>
+   </item>
+   <item row="16" column="3">
+    <widget class="QComboBox" name="comboOutput_6"/>
+   </item>
+   <item row="13" column="5">
+    <widget class="QSpinBox" name="sBpageChannel_05">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="6">
+    <widget class="QSpinBox" name="sBAXEFXChannel_05">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="4">
+    <widget class="QSpinBox" name="sBparamChannel_06">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="5">
+    <widget class="QSpinBox" name="sBpageChannel_06">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="6">
+    <widget class="QSpinBox" name="sBAXEFXChannel_06">
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>comboInput_0</tabstop>
+  <tabstop>comboOutput_0</tabstop>
+  <tabstop>buttonBox</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>MidiSetupClass</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>245</x>
+     <y>349</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>MidiSetupClass</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>313</x>
+     <y>349</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

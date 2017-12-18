@@ -1,0 +1,2525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BCR2000</class>
+ <widget class="QDialog" name="BCR2000">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2225</width>
+    <height>1377</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MidyAX - BCR2000</string>
+  </property>
+  <property name="toolTipDuration">
+   <number>5</number>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>880</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>250</y>
+     <width>1101</width>
+     <height>801</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="13" column="0">
+     <widget class="QLineEditMod1" name="lineEdit_17">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>17</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="3" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_26">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="10">
+     <widget class="QLabel" name="blockLabel_30">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="4" colspan="2">
+     <widget class="QPushButton" name="pushButton_11">
+      <property name="text">
+       <string>11</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QLabel" name="blockLabel_17">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="19" column="6">
+     <widget class="QLineEditMod1" name="lineEdit_28">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>28</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="11" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_14">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="12">
+     <widget class="QLineEditMod1" name="lineEdit_15">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>15</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="9" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_13">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="4">
+     <widget class="QLabel" name="paramLabel_11">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLineEditMod1" name="lineEdit_9">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>9</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="8">
+     <widget class="QLabel" name="blockLabel_21">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="14">
+     <widget class="QLabel" name="blockLabel_16">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="8">
+     <widget class="QLabel" name="paramLabel_13">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="6">
+     <widget class="QLineEditMod1" name="lineEdit_20">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>20</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="5" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_19">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QLabel" name="blockLabel_10">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="19" column="8">
+     <widget class="QLineEditMod1" name="lineEdit_29">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>29</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="19" column="4">
+     <widget class="QLineEditMod1" name="lineEdit_27">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>27</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_9">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="14">
+     <widget class="QLabel" name="paramLabel_16">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="18" column="14">
+     <widget class="QLabel" name="paramLabel_32">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="8">
+     <widget class="QLabel" name="blockLabel_29">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="6">
+     <widget class="QLabel" name="paramLabel_12">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QLineEditMod1" name="lineEdit_10">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>10</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="14">
+     <widget class="QLineEditMod1" name="lineEdit_16">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>16</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="14">
+     <widget class="QLineEditMod1" name="lineEdit_24">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>24</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="15" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_32">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2" colspan="2">
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="text">
+       <string>10</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="10">
+     <widget class="QLabel" name="blockLabel_14">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="2">
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="text">
+       <string>9</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="8">
+     <widget class="QLineEditMod1" name="lineEdit_13">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>13</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="15" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_16">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="18" column="6">
+     <widget class="QLabel" name="paramLabel_28">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="6">
+     <widget class="QLabel" name="blockLabel_12">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="11" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_30">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="14">
+     <widget class="QLabel" name="blockLabel_32">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="8">
+     <widget class="QLabel" name="blockLabel_13">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="12">
+     <widget class="QLabel" name="blockLabel_15">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="4">
+     <widget class="QLineEditMod1" name="lineEdit_19">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>19</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="4">
+     <widget class="QLabel" name="blockLabel_11">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="9" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_29">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="9" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_21">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="4">
+     <widget class="QLabel" name="blockLabel_19">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="12">
+     <widget class="QLabel" name="paramLabel_23">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="12">
+     <widget class="QLabel" name="paramLabel_15">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="0">
+     <widget class="QLabel" name="blockLabel_25">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="6">
+     <widget class="QLineEditMod1" name="lineEdit_12">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>12</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="5" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_11">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="19" column="10">
+     <widget class="QLineEditMod1" name="lineEdit_30">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>30</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="6">
+     <widget class="QLabel" name="blockLabel_28">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="12">
+     <widget class="QLabel" name="blockLabel_31">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="7" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_12">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="10">
+     <widget class="QLineEditMod1" name="lineEdit_22">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>22</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="8">
+     <widget class="QLabel" name="paramLabel_21">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="2">
+     <widget class="QLabel" name="blockLabel_26">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="19" column="0">
+     <widget class="QLineEditMod1" name="lineEdit_25">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>25</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="0">
+     <widget class="QLabel" name="paramLabel_17">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="blockLabel_9">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_17">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="5" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_27">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_10">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="14">
+     <widget class="QLabel" name="blockLabel_24">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QPushButton" name="pushButton_1">
+      <property name="text">
+       <string>1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2" colspan="2">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="18" column="2">
+     <widget class="QLabel" name="paramLabel_26">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4" colspan="2">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="text">
+       <string>3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="6">
+     <widget class="QLabel" name="paramLabel_20">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="13" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_31">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="10">
+     <widget class="QLabel" name="blockLabel_22">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="18" column="8">
+     <widget class="QLabel" name="paramLabel_29">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="4">
+     <widget class="QLabel" name="blockLabel_27">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="10">
+     <widget class="QLabel" name="paramLabel_14">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="7" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_28">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="10">
+     <widget class="QLabel" name="paramLabel_22">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="18" column="12">
+     <widget class="QLabel" name="paramLabel_31">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="12">
+     <widget class="QLineEditMod1" name="lineEdit_23">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>23</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="18" column="0">
+     <widget class="QLabel" name="paramLabel_25">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="1" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_25">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="19" column="2">
+     <widget class="QLineEditMod1" name="lineEdit_26">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>26</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="10">
+     <widget class="QLineEditMod1" name="lineEdit_14">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>14</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="2">
+     <widget class="QLineEditMod1" name="lineEdit_18">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>18</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="18" column="10">
+     <widget class="QLabel" name="paramLabel_30">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="7" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_20">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="paramLabel_9">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="4">
+     <widget class="QLabel" name="paramLabel_19">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="14">
+     <widget class="QLabel" name="paramLabel_24">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="18" column="4">
+     <widget class="QLabel" name="paramLabel_27">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="3" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_18">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="4">
+     <widget class="QLineEditMod1" name="lineEdit_11">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>11</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="11" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_22">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="12">
+     <widget class="QLabel" name="blockLabel_23">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="13" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_15">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="2">
+     <widget class="QLabel" name="paramLabel_18">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="8">
+     <widget class="QLineEditMod1" name="lineEdit_21">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>21</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="19" column="12">
+     <widget class="QLineEditMod1" name="lineEdit_31">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>31</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="19" column="14">
+     <widget class="QLineEditMod1" name="lineEdit_32">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>32</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="6">
+     <widget class="QLabel" name="blockLabel_20">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QLabel" name="paramLabel_10">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="12" colspan="2">
+     <widget class="QPushButton" name="pushButton_15">
+      <property name="text">
+       <string>15</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="6" colspan="2">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="text">
+       <string>4</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="8" colspan="2">
+     <widget class="QPushButton" name="pushButton_13">
+      <property name="text">
+       <string>13</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="6" colspan="2">
+     <widget class="QComboBox" name="comboBox_12"/>
+    </item>
+    <item row="3" column="4" colspan="2">
+     <widget class="QComboBox" name="comboBox_11"/>
+    </item>
+    <item row="2" column="10" colspan="2">
+     <widget class="QPushButton" name="pushButton_14">
+      <property name="text">
+       <string>14</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="8" colspan="2">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="text">
+       <string>5</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2" colspan="2">
+     <widget class="QComboBox" name="comboBox_10"/>
+    </item>
+    <item row="2" column="6" colspan="2">
+     <widget class="QPushButton" name="pushButton_12">
+      <property name="text">
+       <string>12</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="10" colspan="2">
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="text">
+       <string>6</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="8" colspan="2">
+     <widget class="QComboBox" name="comboBox_13"/>
+    </item>
+    <item row="2" column="14" colspan="2">
+     <widget class="QPushButton" name="pushButton_16">
+      <property name="text">
+       <string>16</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="10" colspan="2">
+     <widget class="QComboBox" name="comboBox_14"/>
+    </item>
+    <item row="3" column="12" colspan="2">
+     <widget class="QComboBox" name="comboBox_15"/>
+    </item>
+    <item row="3" column="0" colspan="2">
+     <widget class="QComboBox" name="comboBox_9"/>
+    </item>
+    <item row="3" column="14" colspan="2">
+     <widget class="QComboBox" name="comboBox_16"/>
+    </item>
+    <item row="1" column="14" colspan="2">
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="text">
+       <string>8</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="12" colspan="2">
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="text">
+       <string>7</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="2">
+     <widget class="QLabel" name="blockLabel_18">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="13" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_23">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="15" rowspan="3">
+     <widget class="QSliderMod1" name="verticalSlider_24">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="maximum">
+       <number>127</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0" colspan="2">
+     <widget class="QComboBox" name="comboBox_17"/>
+    </item>
+    <item row="10" column="2" colspan="2">
+     <widget class="QComboBox" name="comboBox_18"/>
+    </item>
+    <item row="10" column="4" colspan="2">
+     <widget class="QComboBox" name="comboBox_19"/>
+    </item>
+    <item row="10" column="6" colspan="2">
+     <widget class="QComboBox" name="comboBox_20"/>
+    </item>
+    <item row="10" column="8" colspan="2">
+     <widget class="QComboBox" name="comboBox_21"/>
+    </item>
+    <item row="10" column="10" colspan="2">
+     <widget class="QComboBox" name="comboBox_22"/>
+    </item>
+    <item row="10" column="12" colspan="2">
+     <widget class="QComboBox" name="comboBox_23"/>
+    </item>
+    <item row="10" column="14" colspan="2">
+     <widget class="QComboBox" name="comboBox_24"/>
+    </item>
+    <item row="16" column="0" colspan="2">
+     <widget class="QComboBox" name="comboBox_25"/>
+    </item>
+    <item row="16" column="2" colspan="2">
+     <widget class="QComboBox" name="comboBox_26"/>
+    </item>
+    <item row="16" column="4" colspan="2">
+     <widget class="QComboBox" name="comboBox_27"/>
+    </item>
+    <item row="16" column="6" colspan="2">
+     <widget class="QComboBox" name="comboBox_28"/>
+    </item>
+    <item row="16" column="8" colspan="2">
+     <widget class="QComboBox" name="comboBox_29"/>
+    </item>
+    <item row="16" column="10" colspan="2">
+     <widget class="QComboBox" name="comboBox_30"/>
+    </item>
+    <item row="16" column="12" colspan="2">
+     <widget class="QComboBox" name="comboBox_31"/>
+    </item>
+    <item row="16" column="14" colspan="2">
+     <widget class="QComboBox" name="comboBox_32"/>
+    </item>
+    <item row="0" column="0" colspan="16">
+     <layout class="QHBoxLayout" name="r8k_2">
+      <item>
+       <layout class="QGridLayout" name="r8k__k1_2">
+        <item row="4" column="0">
+         <widget class="QLineEditMod1" name="r8k__k1_lE_2">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>70</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="r8k__k1_bL_2">
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="r8k__k1__eL_2">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" rowspan="4">
+         <widget class="QSliderMod1" name="r8k__k1__vS_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="2">
+         <widget class="QComboBox" name="r8k__k1__cB_2"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="r8k__k2_2">
+        <item row="4" column="0">
+         <widget class="QLineEditMod1" name="r8k__k2__lE_2">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>70</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="r8k__k2__bL_2">
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="r8k__k2__eL_2">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" rowspan="4">
+         <widget class="QSliderMod1" name="r8k__k2__vS_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="2">
+         <widget class="QComboBox" name="r8k__k2__cB_2"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="r8k__k3_2">
+        <item row="4" column="0">
+         <widget class="QLineEditMod1" name="r8k__k3__lE_2">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>70</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="r8k__k3__bL_2">
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="r8k__k3__eL_2">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" rowspan="4">
+         <widget class="QSliderMod1" name="r8k__k3__vS_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="2">
+         <widget class="QComboBox" name="r8k__k3__cB_2"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="r8k__k4_2">
+        <item row="4" column="0">
+         <widget class="QLineEditMod1" name="r8k__k4__lE_2">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>70</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="r8k__k4__bL_2">
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="r8k__k4__eL_2">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" rowspan="4">
+         <widget class="QSliderMod1" name="r8k__k4__vS_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="2">
+         <widget class="QComboBox" name="r8k__k4__cB_2"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="r8k__k5_2">
+        <item row="4" column="0">
+         <widget class="QLineEditMod1" name="r8k__k5__lE_2">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>70</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="r8k__k5__bL_2">
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="r8k__k5__eL_2">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" rowspan="4">
+         <widget class="QSliderMod1" name="r8k__k5__vS_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="2">
+         <widget class="QComboBox" name="r8k__k5__cB_2"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="r8k__k6_2">
+        <item row="4" column="0">
+         <widget class="QLineEditMod1" name="r8k__k6__lE_2">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>70</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="r8k__k6__bL_2">
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="r8k__k6__eL_2">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" rowspan="4">
+         <widget class="QSliderMod1" name="r8k__k6__vS_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="2">
+         <widget class="QComboBox" name="r8k__k6__cB_2"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="r8k__k7_2">
+        <item row="4" column="0">
+         <widget class="QLineEditMod1" name="r8k__k7__lE_2">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>70</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="r8k__k7__bL_2">
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="r8k__k7__eL_2">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" rowspan="4">
+         <widget class="QSliderMod1" name="r8k__k7__vS_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="2">
+         <widget class="QComboBox" name="r8k__k7__cB_2"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="r8k__k8_2">
+        <item row="4" column="0">
+         <widget class="QLineEditMod1" name="r8k__k8_lE_2">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>70</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="r8k__k8__bL_2">
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="r8k__k8_eL_2">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" rowspan="4">
+         <widget class="QSliderMod1" name="r8k__k8_vS_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="2">
+         <widget class="QComboBox" name="r8k__k8_cB_2"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>20</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Stencil</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>BCR2000</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QSliderMod1</class>
+   <extends>QSlider</extends>
+   <header>qslidermod1.h</header>
+   <slots>
+    <slot>setValueFromText(QString)</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>QLineEditMod1</class>
+   <extends>QLineEdit</extends>
+   <header>qlineeditmod1.h</header>
+   <slots>
+    <slot>setTextFromInt(int)</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>lineEdit_9</tabstop>
+  <tabstop>lineEdit_10</tabstop>
+  <tabstop>lineEdit_11</tabstop>
+  <tabstop>lineEdit_12</tabstop>
+  <tabstop>lineEdit_13</tabstop>
+  <tabstop>lineEdit_14</tabstop>
+  <tabstop>lineEdit_15</tabstop>
+  <tabstop>lineEdit_16</tabstop>
+  <tabstop>lineEdit_17</tabstop>
+  <tabstop>lineEdit_18</tabstop>
+  <tabstop>lineEdit_19</tabstop>
+  <tabstop>lineEdit_20</tabstop>
+  <tabstop>lineEdit_21</tabstop>
+  <tabstop>lineEdit_22</tabstop>
+  <tabstop>lineEdit_23</tabstop>
+  <tabstop>lineEdit_24</tabstop>
+  <tabstop>lineEdit_25</tabstop>
+  <tabstop>lineEdit_26</tabstop>
+  <tabstop>lineEdit_27</tabstop>
+  <tabstop>lineEdit_28</tabstop>
+  <tabstop>lineEdit_29</tabstop>
+  <tabstop>lineEdit_30</tabstop>
+  <tabstop>lineEdit_31</tabstop>
+  <tabstop>lineEdit_32</tabstop>
+  <tabstop>buttonBox</tabstop>
+  <tabstop>comboBox_9</tabstop>
+  <tabstop>comboBox_10</tabstop>
+  <tabstop>comboBox_11</tabstop>
+  <tabstop>comboBox_12</tabstop>
+  <tabstop>comboBox_13</tabstop>
+  <tabstop>comboBox_14</tabstop>
+  <tabstop>comboBox_15</tabstop>
+  <tabstop>comboBox_16</tabstop>
+  <tabstop>comboBox_17</tabstop>
+  <tabstop>comboBox_18</tabstop>
+  <tabstop>comboBox_19</tabstop>
+  <tabstop>comboBox_20</tabstop>
+  <tabstop>comboBox_21</tabstop>
+  <tabstop>comboBox_22</tabstop>
+  <tabstop>comboBox_23</tabstop>
+  <tabstop>comboBox_24</tabstop>
+  <tabstop>comboBox_25</tabstop>
+  <tabstop>comboBox_26</tabstop>
+  <tabstop>comboBox_27</tabstop>
+  <tabstop>comboBox_28</tabstop>
+  <tabstop>comboBox_29</tabstop>
+  <tabstop>comboBox_30</tabstop>
+  <tabstop>comboBox_31</tabstop>
+  <tabstop>comboBox_32</tabstop>
+  <tabstop>verticalSlider_9</tabstop>
+  <tabstop>verticalSlider_10</tabstop>
+  <tabstop>verticalSlider_11</tabstop>
+  <tabstop>verticalSlider_12</tabstop>
+  <tabstop>verticalSlider_13</tabstop>
+  <tabstop>verticalSlider_14</tabstop>
+  <tabstop>verticalSlider_15</tabstop>
+  <tabstop>verticalSlider_16</tabstop>
+  <tabstop>verticalSlider_17</tabstop>
+  <tabstop>verticalSlider_18</tabstop>
+  <tabstop>verticalSlider_19</tabstop>
+  <tabstop>verticalSlider_20</tabstop>
+  <tabstop>verticalSlider_21</tabstop>
+  <tabstop>verticalSlider_22</tabstop>
+  <tabstop>verticalSlider_23</tabstop>
+  <tabstop>verticalSlider_24</tabstop>
+  <tabstop>verticalSlider_25</tabstop>
+  <tabstop>verticalSlider_26</tabstop>
+  <tabstop>verticalSlider_27</tabstop>
+  <tabstop>verticalSlider_28</tabstop>
+  <tabstop>verticalSlider_29</tabstop>
+  <tabstop>verticalSlider_30</tabstop>
+  <tabstop>verticalSlider_31</tabstop>
+  <tabstop>verticalSlider_32</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>BCR2000</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>972</x>
+     <y>861</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>713</x>
+     <y>850</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>BCR2000</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>898</x>
+     <y>863</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>760</x>
+     <y>861</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>setValueFromText(QString)</slot>
+ </slots>
+</ui>

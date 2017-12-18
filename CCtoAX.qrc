@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/new/icons">
+        <file>MidyAX.icns</file>
+    </qresource>
+    <qresource prefix="/font">
+        <file>arial.ttf</file>
+    </qresource>
+    <qresource prefix="/Pictures">
+        <file>pictures/speaker.jpg</file>
+        <file>pictures/powerAmpTube.jpg</file>
+        <file>pictures/pre AmpTube.jpg</file>
+        <file>pictures/outputTransformer.png</file>
+        <file>pictures/equalizer.png</file>
+        <file>pictures/toneKnob.jpg</file>
+        <file>pictures/LeafONICs_LOGO.png</file>
+    </qresource>
+    <qresource prefix="/files">
+        <file>BCR2000_Mapping.csv</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MidyAX</class>
+ <widget class="QMainWindow" name="MidyAX">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>993</width>
+    <height>502</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MidyAX 2</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTextEdit" name="logMIDI">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>971</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Courier 10 Pitch</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbSyncWithAXEFX">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>300</y>
+      <width>97</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SYNC</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rbnActivateLog">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>300</y>
+      <width>251</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Activate SYSEX message Logging</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>501</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="connectState_BCR2000">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>20</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>OFF</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>BCR2000</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="connectState_BCF2000">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>40</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>OFF</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>BCF2000</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="connectState_XTOUCH">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>20</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>OFF</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>20</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>X-TOUCH</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="connectState_BEATSTEP">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>40</y>
+       <width>50</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>OFF</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>40</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>BeatStep</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="connectState_FCB1010">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>20</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>OFF</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>20</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>FCB1010</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="lbMIDIControllers">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>350</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>MIDI CONTROLLERS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="connectState_AXEFX">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>307</y>
+      <width>50</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>OFF</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbFractProd">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>300</y>
+      <width>100</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>AXE-FX</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbClear">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>300</y>
+      <width>97</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CLEAR</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>993</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMidyAX">
+    <property name="title">
+     <string>MidyAX</string>
+    </property>
+    <addaction name="actionMidiSetup"/>
+    <addaction name="actionMidiMapping"/>
+    <addaction name="actionPreferences_2"/>
+    <addaction name="actionEXIT"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionMidyAX_2"/>
+   </widget>
+   <widget class="QMenu" name="menuTest_SYSEX">
+    <property name="title">
+     <string>Send SYSEX</string>
+    </property>
+    <addaction name="actionSYSEX_QUERY_VERSION"/>
+    <addaction name="actionSYSEX_QUERY_NAME"/>
+    <addaction name="actionGETAXEFXPARAMETERINFO"/>
+    <addaction name="actionActivate_Resync"/>
+    <addaction name="actionWHO_AM_I"/>
+   </widget>
+   <widget class="QMenu" name="menuMIDI_Controllers">
+    <property name="title">
+     <string>MIDI Controllers</string>
+    </property>
+    <widget class="QMenu" name="menuX_Touch_Mini">
+     <property name="title">
+      <string>X-Touch Mini</string>
+     </property>
+     <addaction name="actionX_Touch_Mini"/>
+     <addaction name="actionVertical_button_on_right"/>
+     <addaction name="actionVertical_button_on_left"/>
+    </widget>
+    <addaction name="actionBCR2000"/>
+    <addaction name="actionBCF2000"/>
+    <addaction name="menuX_Touch_Mini"/>
+    <addaction name="actionBeatStep"/>
+    <addaction name="actionGuitar_Wing"/>
+    <addaction name="actionQuNeo"/>
+    <addaction name="actionFCB1010"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menuMidyAX"/>
+   <addaction name="menuMIDI_Controllers"/>
+   <addaction name="menuTest_SYSEX"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionPreferences">
+   <property name="text">
+    <string>Preferences</string>
+   </property>
+  </action>
+  <action name="actionMidiSetup">
+   <property name="text">
+    <string>MIDI Connections</string>
+   </property>
+  </action>
+  <action name="actionMidiMapping">
+   <property name="text">
+    <string>MIDI Mapping</string>
+   </property>
+  </action>
+  <action name="actionSEND">
+   <property name="text">
+    <string>SEND</string>
+   </property>
+  </action>
+  <action name="actionSYSEX_QUERY_VERSION">
+   <property name="text">
+    <string>SYSEX_QUERY_VERSION - 0x08</string>
+   </property>
+  </action>
+  <action name="actionSYSEX_QUERY_NAME">
+   <property name="text">
+    <string>SYSEX_QUERY_NAME - 0x0F</string>
+   </property>
+  </action>
+  <action name="actionGETAXEFXPARAMETERINFO">
+   <property name="text">
+    <string>GETAXEFXPARAMETERINFO</string>
+   </property>
+  </action>
+  <action name="actionBCR2000">
+   <property name="text">
+    <string>BCR2000</string>
+   </property>
+  </action>
+  <action name="actionBCF2000">
+   <property name="text">
+    <string>BCF2000</string>
+   </property>
+  </action>
+  <action name="actionRotEncLayOut">
+   <property name="text">
+    <string>BCR2000 test</string>
+   </property>
+  </action>
+  <action name="actionMidyAX_2">
+   <property name="text">
+    <string>MidyAX 2</string>
+   </property>
+  </action>
+  <action name="actionActivate_Resync">
+   <property name="text">
+    <string>Activate Resync</string>
+   </property>
+  </action>
+  <action name="actionPreferences_2">
+   <property name="text">
+    <string>Preferences</string>
+   </property>
+  </action>
+  <action name="actionEXIT">
+   <property name="text">
+    <string>EXIT</string>
+   </property>
+  </action>
+  <action name="actionBeatStep">
+   <property name="text">
+    <string>BeatStep</string>
+   </property>
+  </action>
+  <action name="actionFCB1010">
+   <property name="text">
+    <string>FCB1010</string>
+   </property>
+  </action>
+  <action name="actionBRC2000MOD1">
+   <property name="text">
+    <string>BRC2000MOD1</string>
+   </property>
+  </action>
+  <action name="actionWHO_AM_I">
+   <property name="text">
+    <string>WHO_AM_I</string>
+   </property>
+  </action>
+  <action name="actionGuitar_Wing">
+   <property name="text">
+    <string>Guitar Wing</string>
+   </property>
+  </action>
+  <action name="actionQuNeo">
+   <property name="text">
+    <string>QuNeo</string>
+   </property>
+  </action>
+  <action name="actionX_Touch_Mini">
+   <property name="text">
+    <string>Horizontal</string>
+   </property>
+  </action>
+  <action name="actionVertical_button_on_right">
+   <property name="text">
+    <string>Vertical - button on right</string>
+   </property>
+  </action>
+  <action name="actionVertical_button_on_left">
+   <property name="text">
+    <string>Vertical - button on left</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
